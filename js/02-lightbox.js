@@ -1,5 +1,5 @@
 import { galleryItems } from './gallery-items.js';
-// Change code below this line
+//Change code below this line
 const gallery = document.querySelector('.gallery');
 const galleryList = galleryItems.map(({ preview, original, description }) =>
     `
@@ -21,3 +21,39 @@ gallery.addEventListener('click', (event) => {
 })
 
 
+
+
+
+
+//
+
+
+// const qwe = document.querySelector('document');
+// qwe.addEventListener('click', ddd);
+// function ddd(ev) {
+//     console.dir(ev);
+// }
+
+// function checkBrackets(str) {
+//     const stack = [];
+//     const obj = {
+//         "(": ")",
+//         "{": "}",
+//         "[": "]",
+//     };
+
+//     for (let i = 0; i < str.length; i++) {
+//         const bracket = str[i];
+//         if (bracket === "(" || bracket === "{" || bracket === "[") {
+//             stack.push(bracket);
+//         }
+//         if (bracket === "}" || bracket === ")" || bracket === "]") {
+//             const lastEl = stack.pop();
+//             if (bracket !== obj[lastEl]) {
+//                 return false;
+//             }
+//         }
+//     }
+//     if (stack.length) return false;
+//     return true;
+// }

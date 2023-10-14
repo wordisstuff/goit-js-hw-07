@@ -25,7 +25,7 @@ gallery.addEventListener('click', (event) => {
     <img src="${event.target.dataset.source}" width="800" height="600">`);
     instance.show()
 
-    gallery.addEventListener('keydown', event => event.keyCode === 27 ? instance.close() : instance.visible());
+    gallery.addEventListener('keydown', event => event.key === "Escape" ? instance.close() : instance.visible());
 })
 
 
