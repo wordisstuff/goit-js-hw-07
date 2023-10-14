@@ -8,9 +8,9 @@ gallery.insertAdjacentHTML('beforeend', galleryList);
 
 gallery.addEventListener('click', (event) => {
     event.preventDefault()
-    if (!event.target.classList.contains("gallery__image")) {
-        return;
-    }
+    // if (!event.target.classList.contains("gallery__image")) {
+    //     return;
+    // }
     let lightBox = new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 })
 })
 
